@@ -1,0 +1,100 @@
+*:focus:not(:focus-visible) {
+  outline: 0 !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+}
+
+input:focus, textarea:focus, select:focus, input, textarea, select {
+  outline: 0 !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-color: #000000;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+textarea {
+  border-style: solid;
+  border: 1px, solid, #000000;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.timeblock{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.textbox{
+  overflow: auto;
+  height: 40px;
+  color: #000000;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #e9d5ff;
+}
+
+.present {
+  background-color: #ffcbcb;
+}
+
+.future {
+  background-color: #d3facc;
+}
+
+.btn {
+  font-size: 25px;
+  color: #000000;
+}
+
+.btn:hover {
+  font-size: 25px;
+  color:#606060;
+}
+
+.btn:active {
+  font-size: 25px;
+  color: #5c06d5;
+}
+
+#timecontainer {
+  margin: 0px, 20px, 0px, 20px
+}
