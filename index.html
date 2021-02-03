@@ -20,16 +20,20 @@
   </head>
 
   <body>
+
+    <!-- header -->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p class="lead">A simple calendar app for scheduling your work day. Today's Date is:</p>
+      <p id="todayDate" class="lead"></p>
     </header>
+
+    <!-- timeblocks -->
     <div id="timecontainer" class="container">
       <div id="9am" class="timeblock">
         <form>
           <label for="">09:00 am &nbsp;</label>
-          <input type="text" name="9am" size="40px" class="textbox past">
+          <input type="text" name="9am" size="40px" class="textbox">
           <button class="far fa-calendar-check btn"></button>
         </form>
       </div>
@@ -37,7 +41,7 @@
       <div id="10am" class="timeblock">
         <form>
           <label for="">10:00 am &nbsp;</label>
-          <input type="text" name="10am" size="40px" class="textbox present">
+          <input type="text" name="10am" size="40px" class="textbox">
           <button class="far fa-calendar-check btn"></button>
         </form>
       </div>
@@ -45,7 +49,7 @@
       <div id="11am" class="timeblock">
         <form>
           <label for="">11:00 am &nbsp;</label>
-          <input type="text" name="11am" size="40px" class="textbox future">
+          <input type="text" name="11am" size="40px" class="textbox">
           <button class="far fa-calendar-check btn"></button>
         </form>
       </div>
@@ -91,7 +95,7 @@
       </div>
       <hr>
       <div id="5pm" class="timeblock">
-        <form class="timeblock">
+        <form>
           <label for="">05:00 pm &nbsp;</label>
           <input type="text" name="5pm" size="40px" class="textbox">
           <button class="far fa-calendar-check btn"></button>
@@ -99,8 +103,10 @@
       </div>
       <hr>
     </div>
-    <script src="./Assets/js/script.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./Assets/js/script.js" type="text/javascript"></script>
+
   </body>
 </html>

@@ -57,7 +57,7 @@ body {
 }
 
 .row {
-  white-space: pre-wrap;
+  white-space: nowrap;
   height: 80px;
   border-top: 1px solid white;
 }
@@ -68,14 +68,17 @@ body {
   border-top: 1px dashed #000000;
 }
 
+/* past background color */
 .past {
   background-color: #e9d5ff;
 }
 
+/* present background color */
 .present {
   background-color: #ffcbcb;
 }
 
+/* future background color */
 .future {
   background-color: #d3facc;
 }
@@ -87,7 +90,7 @@ body {
 
 .btn:hover {
   font-size: 25px;
-  color:#606060;
+  color:#0094f0;
 }
 
 .btn:active {
@@ -97,4 +100,8 @@ body {
 
 #timecontainer {
   margin: 0px, 20px, 0px, 20px
+}
+
+form {
+  white-space: nowrap;
 }
