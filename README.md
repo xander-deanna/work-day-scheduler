@@ -6,4 +6,10 @@ I started by building the bare bones of my site using HTML and CSS. I kept most 
 
 I decided to use the moment library to work with dates and times. I first focused on getting the page to display today's date, as well as getting the backgrounds of the text boxes to change dynamically, based on what time it is.
 
-I then got started on adding the text inputs to local storage. I got stuck trying to retrieve the inputs from local storage, but plan on having this fixed by my next tutoring session. 
+I then got started on adding the text inputs to local storage. I got stuck trying to retrieve the inputs from local storage, but plan on having this fixed by my next tutoring session and will ask for this to be re-graded.
+
+---------------------------------------------------------
+https://github.com/xander-deanna/work-day-scheduler/
+https://xander-deanna.github.io/work-day-scheduler/
+
+Thanks for grading! :)
